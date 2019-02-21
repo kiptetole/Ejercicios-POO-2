@@ -1,0 +1,37 @@
+Ejercicios de Teoria de P.O.O.:
+
+1.-A continuación tienes una lista en la que están mezcladas varias clases con instancias de esas clases.
+   Para ponerlo un poco más difícil, todos los elementos están escritos en minúscula. Di cuáles son las 
+   clases, cuáles las instancias, a qué clase pertenece cada una de estas instancias y cuál es la jerarquía
+   entre las clases:
+
+	Solucion:-------------------------------------------------------------------------------------	
+
+	Mineral ----- pirita, cuarzo.
+
+		    |--- Perro ----- Laika, ayudante_de_santa_claus, Milu, Snoopy, Pluto, Goofy.
+	Animal -----| 
+		    |--- Caballo --- Pegaso, Bucefalo, Rocinante.
+		    |
+		    |--- Gato ------ Gardfiel, Tom, Silvestre.
+		    |
+		    |--- Pato ------ Pato_Lucas.
+	
+	Persona ---- Javier, Paula.
+
+
+2.-¿Cuáles serían los atributos de la clase Vivienda? ¿Qué subclases se te ocurren?
+	
+	Solucion:-------------------------------------------------------------------------------------
+
+	Los atributos de la clase Vivienda serían: Habitaciones, numDormitorios, numBaños, numSalon, m2, etc.
+
+
+3.-¿Cuáles serían los atributos de la clase Ventana (de ordenador)? ¿cuáles seríanlos métodos? Piensa en las 
+   propiedades y en el comportamiento de una ventana de cualquier programa.
+
+	Solucion:-------------------------------------------------------------------------------------
+
+	Atributos de la Clase Ventana serían: Anchura, Altura.
+
+	Metodos de la Clase Ventana Serian: Minimizar, Maximizar, Cerrar.
